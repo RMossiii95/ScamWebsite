@@ -1,0 +1,36 @@
+#center{
+    text-align: center;
+    font-size: 60px;
+    font-family: fantasy;
+    
+}
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color:transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+.centerElement{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+img{
+    border: 5px solid black;   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#centerText{
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    
+}
+
+
+
+
